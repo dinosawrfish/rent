@@ -135,3 +135,22 @@ console.log(testStringTwo.includes(stringToLookFor));
 
 // want to know how many milliseconds have elapsed since Jan 1 1970?
 console.log(Date.now());
+
+// objects
+const me = {
+    name: {
+      first: "Brian",
+      last: "Holt",
+    },
+    location: {
+      city: "Seattle",
+      state: "WA",
+      country: "USA",
+    },
+    speak() {
+        console.log("hello");
+      },
+  };
+
+  console.log(me.name.first);
+  console.log(me.location.state);
