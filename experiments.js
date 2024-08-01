@@ -31,3 +31,37 @@ if (friendsAtYourParty === 0) {
 } else {
   console.log("Wooooo turn on the dance music!");
 }
+
+// while loop
+let friendsAtYourPartyToo = 0;
+while (friendsAtYourPartyToo < 10) {
+    friendsAtYourPartyToo = friendsAtYourPartyToo + 1;
+}
+console.log(friendsAtYourPartyToo);
+
+// for loop
+let friendsAtYourPartyThree = 0;
+for (let i = 0; i <= 10; i++) {
+    friendsAtYourPartyThree++;
+}
+console.log(friendsAtYourPartyThree);
+
+// increments
+let friendsAtYourPartyFour = 0;
+friendsAtYourPartyFour = friendsAtYourPartyFour + 1;
+friendsAtYourPartyFour += 1;
+friendsAtYourPartyFour++;
+++friendsAtYourPartyFour;
+console.log(friendsAtYourPartyFour);
+
+// exercise
+const character = 100;
+const timesToRepeat = 10;
+
+let word = "";
+for (let i = 0; i<timesToRepeat; i++) {
+    word = word + character;
+}
+
+console.log(word);
+
