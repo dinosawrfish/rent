@@ -113,3 +113,25 @@ doStuff("B");
 console.log(B); // does not work, the B parameter expires after the function call
 console.log(C); // does not work, C was declared inside the function and the function is over
 console.log(F); // works, F was declared in the global scope
+
+// builtins examples
+const sentenceTwo = "ThIs HaS wEiRd CaSiNg On It";
+const lowerCaseSentence = sentenceTwo.toLowerCase();
+console.log(lowerCaseSentence);
+
+// want to round a number? use Math!
+const number = 5.3;
+const roundedNumber = Math.round(number);
+console.log(number);
+
+// want to see if a string contains another string?
+const testStringOne = "The quick brown fox jumps over the lazy dog";
+const testStringTwo =
+      "Mirror, mirror on the wall, don't say it cause I know I'm cute";
+const stringToLookFor = "cute";
+
+console.log(testStringOne.includes(stringToLookFor));
+console.log(testStringTwo.includes(stringToLookFor));
+
+// want to know how many milliseconds have elapsed since Jan 1 1970?
+console.log(Date.now());
