@@ -65,3 +65,20 @@ for (let i = 0; i<timesToRepeat; i++) {
 
 console.log(word);
 
+// function
+function bark() {
+	console.log('woof');
+}
+
+const meow = function () {
+  console.log("meeeeeeeow");
+};
+
+// the => is just = > put together, the font just combines them to one glyph
+const chirp = () => {
+  console.log("chirp chirp");
+};
+
+bark();
+meow();
+chirp();
